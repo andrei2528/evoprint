@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+main,
+#titlu {
+    text-align: center;
+}
+
+#cursor {
+    visibility: hidden;
+}
+
+#normal hr {
+    width: 1.5em;
+    color: grey;
+    margin-left: 10px;
+}
+
+#titlu {
+    background-image: url('https://evoprint3d.files.wordpress.com/2021/04/2000-1200-2.png');
+    background-size: cover;
+    color: #333;
+    padding: 150px;
+}
+
+#rosu {
+    color: red;
+}
+
+#titlu h1 {
+    font-size: 5em;
+    font-family: 'Anton', sans-serif;
+}
+
+#titlu h2 {
+    font-size: 3.5em
+}
+
+#cards {
+    display: flex;
+}
+
+#modelare3d,
+#gravare,
+#litere {
+    margin: 40px;
+    border: 5px solid white;
+}
+
+#cards h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4E5B61;
+}
+
+#modelare3d h2 {
+    background-image: url("https://evoprint3d.files.wordpress.com/2021/04/maxresdefault-1.jpg?w=1024");
+    padding: 3.5em;
+    background-size: cover;
+}
+
+#gravare h2 {
+    background-image: url("https://evoprint3d.files.wordpress.com/2021/04/123-1.jpg?w=1024");
+    padding: 3.5em;
+    background-size: cover;
+}
+
+#litere h2 {
+    background-image: url("https://evoprint3d.files.wordpress.com/2021/04/litere-polistiren-site.jpg?w=1024");
+    padding: 3.5em;
+    background-size: cover;
+}
+
+#cards p {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#afla-mai-multe {
+    background-color: #4E5B61;
+    height: 4em;
+    width: 9em;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: white;
+    border-radius: 5px;
+}
+
+#afla-mai-multe:hover {
+    background-color: white;
+    color: #4E5B61;
+    box-shadow: 2px 2px #4E5B61, 2px 2px #4E5B61, 2px 2px #4E5B61;
+    transition-duration: 0.6s;
+    height: 5em;
+    width: 10em;
+}
